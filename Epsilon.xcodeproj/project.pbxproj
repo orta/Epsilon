@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AAA96FEAE22264B2BADB5D3 /* Pods_Epsilon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7BFB143DB274A879747629 /* Pods_Epsilon.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		605952871B98C5CC003D17A6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605952861B98C5CC003D17A6 /* WebKit.framework */; };
+		605952891B98C94F003D17A6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605952881B98C94F003D17A6 /* main.swift */; };
+		6059528B1B98C97B003D17A6 /* TimeoutableApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6059528A1B98C97B003D17A6 /* TimeoutableApplication.swift */; };
+		6059528D1B98D2BD003D17A6 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6059528C1B98D2BD003D17A6 /* AdminViewController.swift */; };
 		60AA641C1B91FA6200200400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AA641B1B91FA6200200400 /* AppDelegate.swift */; };
-		60AA641E1B91FA6200200400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AA641D1B91FA6200200400 /* ViewController.swift */; };
 		60AA64211B91FA6200200400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AA641F1B91FA6200200400 /* Main.storyboard */; };
 		60AA64231B91FA6200200400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60AA64221B91FA6200200400 /* Assets.xcassets */; };
 		60AA64261B91FA6200200400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AA64241B91FA6200200400 /* LaunchScreen.storyboard */; };
 		60AA64311B91FA6200200400 /* EpsilonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AA64301B91FA6200200400 /* EpsilonTests.swift */; };
+		60AA64401B91FFA400200400 /* WebViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AA643F1B91FFA400200400 /* WebViewSettings.swift */; };
+		60AA64421B9202DD00200400 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AA64411B9202DD00200400 /* WebViewController.swift */; };
+		C543A6613A0B9137E554FCC1 /* Pods_EpsilonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB89D8F342655819B15D1B4E /* Pods_EpsilonTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		351683058F2A0309B35E5ED2 /* Pods-EpsilonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpsilonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpsilonTests/Pods-EpsilonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F7BFB143DB274A879747629 /* Pods_Epsilon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Epsilon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		605952861B98C5CC003D17A6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		605952881B98C94F003D17A6 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6059528A1B98C97B003D17A6 /* TimeoutableApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeoutableApplication.swift; sourceTree = "<group>"; };
+		6059528C1B98D2BD003D17A6 /* AdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
 		60AA64181B91FA6200200400 /* Epsilon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epsilon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AA641B1B91FA6200200400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60AA641D1B91FA6200200400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60AA64201B91FA6200200400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60AA64221B91FA6200200400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60AA64251B91FA6200200400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +48,13 @@
 		60AA642C1B91FA6200200400 /* EpsilonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpsilonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AA64301B91FA6200200400 /* EpsilonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpsilonTests.swift; sourceTree = "<group>"; };
 		60AA64321B91FA6200200400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AA643B1B91FC6400200400 /* Epsilon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Epsilon-Bridging-Header.h"; sourceTree = "<group>"; };
+		60AA643F1B91FFA400200400 /* WebViewSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewSettings.swift; sourceTree = "<group>"; };
+		60AA64411B9202DD00200400 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B79D381FE56BB9A8EB3CF833 /* Pods-Epsilon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epsilon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Epsilon/Pods-Epsilon.release.xcconfig"; sourceTree = "<group>"; };
+		CB89D8F342655819B15D1B4E /* Pods_EpsilonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpsilonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37FE30AE2B0233D68188678 /* Pods-EpsilonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpsilonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpsilonTests/Pods-EpsilonTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2887A00928E8FF572AE02CD /* Pods-Epsilon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epsilon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Epsilon/Pods-Epsilon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605952871B98C5CC003D17A6 /* WebKit.framework in Frameworks */,
+				0AAA96FEAE22264B2BADB5D3 /* Pods_Epsilon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +71,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C543A6613A0B9137E554FCC1 /* Pods_EpsilonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51F3BFCAEE3D812FDA5C6546 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2887A00928E8FF572AE02CD /* Pods-Epsilon.debug.xcconfig */,
+				B79D381FE56BB9A8EB3CF833 /* Pods-Epsilon.release.xcconfig */,
+				351683058F2A0309B35E5ED2 /* Pods-EpsilonTests.debug.xcconfig */,
+				E37FE30AE2B0233D68188678 /* Pods-EpsilonTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		60AA640F1B91FA6200200400 = {
 			isa = PBXGroup;
 			children = (
 				60AA641A1B91FA6200200400 /* Epsilon */,
 				60AA642F1B91FA6200200400 /* EpsilonTests */,
 				60AA64191B91FA6200200400 /* Products */,
+				51F3BFCAEE3D812FDA5C6546 /* Pods */,
+				7B5375C49154F0E9758C57E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +112,17 @@
 		60AA641A1B91FA6200200400 /* Epsilon */ = {
 			isa = PBXGroup;
 			children = (
+				605952881B98C94F003D17A6 /* main.swift */,
+				6059528A1B98C97B003D17A6 /* TimeoutableApplication.swift */,
 				60AA641B1B91FA6200200400 /* AppDelegate.swift */,
-				60AA641D1B91FA6200200400 /* ViewController.swift */,
+				60AA643F1B91FFA400200400 /* WebViewSettings.swift */,
+				6059528C1B98D2BD003D17A6 /* AdminViewController.swift */,
+				60AA64411B9202DD00200400 /* WebViewController.swift */,
 				60AA641F1B91FA6200200400 /* Main.storyboard */,
 				60AA64221B91FA6200200400 /* Assets.xcassets */,
 				60AA64241B91FA6200200400 /* LaunchScreen.storyboard */,
 				60AA64271B91FA6200200400 /* Info.plist */,
+				60AA643B1B91FC6400200400 /* Epsilon-Bridging-Header.h */,
 			);
 			path = Epsilon;
 			sourceTree = "<group>";
@@ -96,6 +136,16 @@
 			path = EpsilonTests;
 			sourceTree = "<group>";
 		};
+		7B5375C49154F0E9758C57E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				605952861B98C5CC003D17A6 /* WebKit.framework */,
+				4F7BFB143DB274A879747629 /* Pods_Epsilon.framework */,
+				CB89D8F342655819B15D1B4E /* Pods_EpsilonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60AA64351B91FA6200200400 /* Build configuration list for PBXNativeTarget "Epsilon" */;
 			buildPhases = (
+				888E10FB6821659614564F16 /* Check Pods Manifest.lock */,
 				60AA64141B91FA6200200400 /* Sources */,
 				60AA64151B91FA6200200400 /* Frameworks */,
 				60AA64161B91FA6200200400 /* Resources */,
+				85BF25EC6727D8324B82B310 /* Embed Pods Frameworks */,
+				0B41285B1CF9A8A5C7139409 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60AA64381B91FA6200200400 /* Build configuration list for PBXNativeTarget "EpsilonTests" */;
 			buildPhases = (
+				548090EEB154DEC8C3A7BF07 /* Check Pods Manifest.lock */,
 				60AA64281B91FA6200200400 /* Sources */,
 				60AA64291B91FA6200200400 /* Frameworks */,
 				60AA642A1B91FA6200200400 /* Resources */,
+				C2EA1ED623651B294DCA24D8 /* Embed Pods Frameworks */,
+				9E19A97F19F3FE9377BE43B5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,11 +196,13 @@
 		60AA64101B91FA6200200400 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Orta Therox";
 				TargetAttributes = {
 					60AA64171B91FA6200200400 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZH8TGFYKDK;
 					};
 					60AA642B1B91FA6200200400 = {
 						CreatedOnToolsVersion = 7.0;
@@ -191,13 +249,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B41285B1CF9A8A5C7139409 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Epsilon/Pods-Epsilon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		548090EEB154DEC8C3A7BF07 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85BF25EC6727D8324B82B310 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Epsilon/Pods-Epsilon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888E10FB6821659614564F16 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E19A97F19F3FE9377BE43B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpsilonTests/Pods-EpsilonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2EA1ED623651B294DCA24D8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpsilonTests/Pods-EpsilonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60AA64141B91FA6200200400 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60AA641E1B91FA6200200400 /* ViewController.swift in Sources */,
+				6059528D1B98D2BD003D17A6 /* AdminViewController.swift in Sources */,
 				60AA641C1B91FA6200200400 /* AppDelegate.swift in Sources */,
+				60AA64421B9202DD00200400 /* WebViewController.swift in Sources */,
+				6059528B1B98C97B003D17A6 /* TimeoutableApplication.swift in Sources */,
+				605952891B98C94F003D17A6 /* main.swift in Sources */,
+				60AA64401B91FFA400200400 /* WebViewSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,28 +477,46 @@
 		};
 		60AA64361B91FA6200200400 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2887A00928E8FF572AE02CD /* Pods-Epsilon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ART SY INC";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Epsilon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.Epsilon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77662564-21d2-451a-aeb2-0f5f91f282b6";
+				SWIFT_OBJC_BRIDGING_HEADER = "Epsilon/Epsilon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		60AA64371B91FA6200200400 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79D381FE56BB9A8EB3CF833 /* Pods-Epsilon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ART SY INC";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Epsilon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.Epsilon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77662564-21d2-451a-aeb2-0f5f91f282b6";
+				SWIFT_OBJC_BRIDGING_HEADER = "Epsilon/Epsilon-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		60AA64391B91FA6200200400 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351683058F2A0309B35E5ED2 /* Pods-EpsilonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EpsilonTests/Info.plist;
@@ -356,6 +529,7 @@
 		};
 		60AA643A1B91FA6200200400 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37FE30AE2B0233D68188678 /* Pods-EpsilonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EpsilonTests/Info.plist;
@@ -385,6 +559,7 @@
 				60AA64371B91FA6200200400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60AA64381B91FA6200200400 /* Build configuration list for PBXNativeTarget "EpsilonTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +568,7 @@
 				60AA643A1B91FA6200200400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
