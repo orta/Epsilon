@@ -7,7 +7,7 @@ class ARWebActionController: NSObject, WKNavigationDelegate {
     var backButton: UIButton!
 
     func webView(webView: WKWebView, didFinishNavigation navigation: WKNavigation!) {
-        backButton.hidden =  webView.backForwardList.backList.count > 1
+        backButton.hidden =  webView.backForwardList.backList.count == 0
     }
 
 }

@@ -27,9 +27,17 @@ class AdminViewController: UIViewController {
             .addDisposableTo(disposeBag)
     }
 
+    @IBAction func backTapped(sender: AnyObject) {
+        settings.save()
+        if let webViewController = presentingViewController as? WebViewController {
+            let initialRequest = NSURLRequest(URL: settings.redirectURL)
+            webViewController.webView.loadRequest(initialRequest)
+        }
+        presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
+    }
     @IBAction
     func save() {
-        self.settings.save()
+        settings.save()
         exit(EXIT_SUCCESS)
     }
 }
